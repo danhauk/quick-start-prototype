@@ -1,0 +1,68 @@
+.container {
+	padding: 1em;
+	margin: 130px auto;
+	max-width: 1032px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.placeholder__checklist {
+	width: 679px;
+	flex-shrink: 0;
+}
+
+.quick-start {
+	width: 329px;
+}
+
+.card__heading {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.card__faces {
+	margin: 24px 0;
+
+	& .card__faces-face {
+		height: 48px;
+		width: 48px;
+		margin-right: 8px;
+		border-radius: 50%;
+	}
+}
+
+.card__description {
+	margin: 0 0 24px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.scheduler {
+	width: 720px;
+	text-align: center;
+
+	& > img {
+		margin-bottom: 24px;
+	}
+
+	& .scheduler__heading {
+		font-size: 24px;
+		margin-bottom: 8px;
+	}
+
+	& .scheduler__description {
+		font-size: 14px;
+		color: #646970;
+	}
+}
+
+.gridicons-calendar {
+	height: 32px;
+	width: 32px;
+	fill: #fff;
+	background: #2271b1;
+	border-radius: 50%;
+	padding: 8px;
+	margin-bottom: 16px;
+}
