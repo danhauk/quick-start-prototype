@@ -15,7 +15,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@wordpress/browserslist-config": "^2.6.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react-scripts": "^3.3.0",
     "typescript": "^3.7.5"
   },
